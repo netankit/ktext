@@ -32,7 +32,7 @@ setup(
                       'more_itertools',
                       'textacy',
                       'keras',
-                      'tensorflow'],
+                      'tensorflow-gpu==1.12.0rc0'],
     extras_require={
         'h5py': ['h5py'],
         'visualize': ['pydot'],
